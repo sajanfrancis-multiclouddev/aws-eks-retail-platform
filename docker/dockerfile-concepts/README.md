@@ -1,6 +1,6 @@
 # Dockerfile Concepts – Optimized Java Microservice Image
 
-> Project status: 🔄 In progress  
+> Project status: ✅ Completed  
 > Current phase: Optimized multi-stage Dockerfile implementation
 
 This exercise documents how I build and validate a secure, production-style
@@ -273,14 +273,14 @@ appuser:appgroup
 
 | Validation | Status |
 |---|---|
-| Multi-stage image builds successfully | ⏳ Pending |
-| Maven unit tests pass during build | ⏳ Pending |
-| Rebuild reuses cached layers | ⏳ Pending |
-| Application health endpoint returns `UP` | ⏳ Pending |
-| Docker reports the container as healthy | ⏳ Pending |
-| Container runs as a non-root user | ⏳ Pending |
-| Maven and source code are absent at runtime | ⏳ Pending |
-| Read-only and resource-restricted run succeeds | ⏳ Pending |
+| Multi-stage image builds successfully | ✅ Completed |
+| Maven unit tests pass during build | ✅ Completed|
+| Rebuild reuses cached layers | ✅ Completed|
+| Application health endpoint returns `UP` |✅ Completed |
+| Docker reports the container as healthy | ✅ Completed |
+| Container runs as a non-root user | ✅ Completed|
+| Maven and source code are absent at runtime | ✅ Completed |
+| Read-only and resource-restricted run succeeds | ✅ Completed |
 
 Update each item to `✅ Completed` only after successfully executing and
 validating it.
