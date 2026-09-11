@@ -1,0 +1,11 @@
+UI source + Dockerfile
+          ↓
+AMD64 EC2 instance
+          ↓
+Docker Buildx + BuildKit + QEMU
+       ┌──┴──┐
+    AMD64   ARM64
+       └──┬──┘
+     OCI image index
+          ↓
+      Docker Hub

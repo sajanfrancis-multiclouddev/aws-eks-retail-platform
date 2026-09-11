@@ -1,0 +1,28 @@
+Inspecting image: sajanvethakumar/retail-ui-multiarch:1.0.0
+Name:      docker.io/sajanvethakumar/retail-ui-multiarch:1.0.0
+MediaType: application/vnd.oci.image.index.v1+json
+Digest:    sha256:b05c079134b7e79e7e260f85f284def464b44d3cb526b7d6f66a895045d4fb7d
+           
+Manifests: 
+  Name:        docker.io/sajanvethakumar/retail-ui-multiarch:1.0.0@sha256:e557128dd5a37c193d89ed551f74d692029130fcd08644f8e37fbddf6fffeb52
+  MediaType:   application/vnd.oci.image.manifest.v1+json
+  Platform:    linux/amd64
+               
+  Name:        docker.io/sajanvethakumar/retail-ui-multiarch:1.0.0@sha256:e6ee7f9b280b343f3c9c2784253f94d1a6df00a722612a4ba185ca1ef021e4a3
+  MediaType:   application/vnd.oci.image.manifest.v1+json
+  Platform:    linux/arm64
+               
+  Name:        docker.io/sajanvethakumar/retail-ui-multiarch:1.0.0@sha256:c5102851d437fa58e477db8150035b926a130b84164562bd624ca0d0198356e7
+  MediaType:   application/vnd.oci.image.manifest.v1+json
+  Platform:    unknown/unknown
+  Annotations: 
+    vnd.docker.reference.digest: sha256:e557128dd5a37c193d89ed551f74d692029130fcd08644f8e37fbddf6fffeb52
+    vnd.docker.reference.type:   attestation-manifest
+               
+  Name:        docker.io/sajanvethakumar/retail-ui-multiarch:1.0.0@sha256:bdb34a0cdf3ea4d582c6643b0d17d97dcaf5b0a8dbcee944e33b6a1c18313716
+  MediaType:   application/vnd.oci.image.manifest.v1+json
+  Platform:    unknown/unknown
+  Annotations: 
+    vnd.docker.reference.digest: sha256:e6ee7f9b280b343f3c9c2784253f94d1a6df00a722612a4ba185ca1ef021e4a3
+    vnd.docker.reference.type:   attestation-manifest
+PASS: sajanvethakumar/retail-ui-multiarch:1.0.0 contains AMD64 and ARM64 variants.
